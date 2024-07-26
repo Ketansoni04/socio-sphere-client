@@ -1,0 +1,17 @@
+.Followers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;;
+
+    .profile-info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+    }
+
+    .follow-link {
+        color: var(--accent-color);
+    }
+}
