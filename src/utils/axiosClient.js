@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getItem, KEY_ACCESS_TOKEN, removeItem,setItem } from "./LocalStorageManager";
-import store from '../re    dux/store'
+import store from '../redux/store'
 import { TOAST_FAILURE } from "../App";
 import { setLoading, showToast } from '../redux/slices/appConfigSlice'
 
